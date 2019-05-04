@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import Color from 'color';
 import MersenneTwister from 'mersenne-twister';
 
-import colors from './colors';
+import isColors from "./isColors";
+import defaultColors from './colors';
 import Paper from './Paper';
 
 const shapeCount = 4;
@@ -58,12 +59,23 @@ export default class Jazzicon extends React.PureComponent {
     );
   }
 
+  colorsForIcon = arr => {
+    if (isColors(arr)) {
+      return arr
+    }
+
+    return defaultColors
+  }
+
   render() {
-    const { diameter, paperStyles, seed, svgStyles } = this.props;
+    const { colors, diameter, paperStyles, seed, svgStyles } = this.props;
 
     this.generator = new MersenneTwister(seed);
 
-    const remainingColors = this.hueShift(colors.slice(), this.generator);
+    const remainingColors = this.hueShift(
+      this.colorsForIcon(colors).slice(),
+      this.generator
+    );
     const shapesArr = Array(shapeCount).fill();
 
     return (
