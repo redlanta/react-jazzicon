@@ -5,7 +5,7 @@ export default arr => {
         return false;
     }
 
-    if (!arr.every(value => typeof value === "string" && isColor(value))) {
+    if (arr.every(value => typeof value === "string" && isColor(value))) {
       return true;
     }
 
