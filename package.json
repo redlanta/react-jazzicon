@@ -1,6 +1,6 @@
 {
   "name": "react-jazzicon",
-  "version": "0.1.3@ZM.0.1",
+  "version": "0.1.3.0.1",
   "description": "React component for danfinlay/jazzicon",
   "main": "lib/index.js",
   "scripts": {
