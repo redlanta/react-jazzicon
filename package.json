@@ -1,6 +1,7 @@
 {
-  "name": "react-jazzicon",
-  "version": "0.1.3.0.1",
+  "name": "redlanta-react-jazzicon",
+  "version": "0.1.3",
+  "build": "0.0.1",
   "description": "React component for danfinlay/jazzicon",
   "main": "lib/index.js",
   "scripts": {
@@ -12,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcusmolchany/react-jazzicon.git"
+    "url": "git+https://github.com/redlanta/react-jazzicon.git"
   },
   "bugs": {
-    "url": "https://github.com/marcusmolchany/react-jazzicon/issues"
+    "url": "https://github.com/redlanta/react-jazzicon/issues"
   },
   "keywords": [
     "jazzicon",
@@ -23,7 +24,7 @@
     "ethereum",
     "metamask"
   ],
-  "author": "marcusmolchany",
+  "author": "redlanta",
   "license": "MIT",
   "dependencies": {
     "color": "^0.11.0",
@@ -47,7 +48,7 @@
     "babel-runtime": "^6.26.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.3"
   },
   "peerDependencies": {
     "react": "^15.3.2"
