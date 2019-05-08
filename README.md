@@ -8,7 +8,7 @@ This is a react component for [Dan Finlay's](https://github.com/danfinlay)
 # usage
 
 ```js
-import Jazzicon from 'react-jazzicon'
+import Jazzicon from 'react-jazzicon-custom-colors'
 
 export default class App extends React.Component {
 
@@ -16,7 +16,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Jazzicon diameter={100} seed={Math.round(Math.random() * 10000000)} />
+      <Jazzicon colors={myColorsArray} diameter={100} seed={Math.round(Math.random() * 10000000)} />
     )
   }
 }
@@ -24,7 +24,7 @@ export default class App extends React.Component {
 
 for Ethereum addresses
 ```js
-import Jazzicon, { jsNumberForAddress } from 'react-jazzicon'
+import Jazzicon, { jsNumberForAddress } from 'react-jazzicon-custom-colors'
 
 export default class App extends React.Component {
 
@@ -32,7 +32,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Jazzicon diameter={100} seed={jsNumberForAddress('0x1111111111111111111111111111111111111111')} />
+      <Jazzicon colors={myColorsArray} diameter={100} seed={jsNumberForAddress('0x1111111111111111111111111111111111111111')} />
     )
   }
 }
@@ -41,7 +41,7 @@ export default class App extends React.Component {
 # setup
 
 ```sh
-$ git clone https://github.com/marcusmolchany/react-jazzicon
+$ git clone https://github.com/redlanta/react-jazzicon
 $ cd react-jazzicon
 $ yarn # or npm i
 ```
