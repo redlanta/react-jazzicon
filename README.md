@@ -1,9 +1,9 @@
-react-jazzicon
+react-jazzicon-custom-colors
 ==============
 [![NPM version][npm-image]][npm-url] [![dependencies Status][david-dep-image]][david-dep-url] [![devDependencies Status][david-devDep-image]][david-devDep-url] [![Known Vulnerabilities][snyk-image]][snyk-url]
 
-This is a react component for [Dan Finlay's](https://github.com/danfinlay)
-[jazzicon](https://github.com/danfinlay/jazzicon).
+This is a forked version for [marcusmolchany'shttps://github.com/marcusmolchany/react-jazzicon
+[jazzicon](https://github.com/marcusmolchany/react-jazzicon).
 
 # usage
 

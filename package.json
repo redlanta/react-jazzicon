@@ -1,6 +1,6 @@
 {
   "name": "react-jazzicon-custom-colors",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "build": "0.0.1",
   "description": "React component for danfinlay/jazzicon",
   "main": "lib/index.js",
